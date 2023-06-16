@@ -1,0 +1,40 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .menu-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-items li {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .toggle-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-items {
+      display: none;
+    }
+    
+    .toggle-menu {
+      display: block;
+    }
+  }
+  
